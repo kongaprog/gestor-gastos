@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Gastos</title>
+    </head><link rel="stylesheet" href="style.css">
+<body>
+
+    <main id="app-container">
+        <h1>Mis Gastos</h1>
+
+        <section class="input-group">
+            <input type="text" id="input-concepto" placeholder="Ej: Compra supermercado">
+            <input type="number" id="input-monto" placeholder="Ej: 50.00">
+            <button id="btn-agregar">Agregar Gasto</button>
+        </section>
+
+        <section class="lista-gastos">
+            <h2>Historial</h2>
+            <ul id="lista-historial">
+                </ul>
+        </section>
+        
+        <div class="total">
+            Total: $<span id="total-monto">0.00</span>
+        </div>
+
+    </main>
+<script src="script.js"></script>
+    </body>
+</html>
